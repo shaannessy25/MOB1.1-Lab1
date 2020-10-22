@@ -59,11 +59,21 @@ let yCoord = coordinate.y
 
 import Foundation // you need Foundation imported for the sqrt() function
 
+var startCoord: (x:Double, y:Double) = (5.1, 8.3)
+
+var endCoord: (x:Double, y:Double) = (375, 667)
+
+sqrt((endCoord.x - startCoord.x)*(endCoord.x - startCoord.x) + (endCoord.y - startCoord.y)*(endCoord.y - startCoord.y))
+
+print("The answer is 755.45")
 
 
+var us: (Double, String) = (1.00, "US")
+var cad: (Double, String) = (1.29, "CAD")
+var aus: (Double, String) = (1.36, "AUS")
 
+us.0 * cad.0
+us.0 * aus.0
 
-
-
-
+print("\(us) is \(aus) and \(us) also converts to \(cad)")
 //: [Previous](@previous)    [Next](@next)

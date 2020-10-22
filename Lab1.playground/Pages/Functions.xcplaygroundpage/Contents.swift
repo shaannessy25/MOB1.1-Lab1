@@ -91,11 +91,44 @@ resize2(fromWidth: 20, fromHeight: 30, toWidth: 100, toHeight: 400)
  */
 // Write your challenge code here:
 
+func area (width: Int, height: Int) -> Int {
+    return width * height
+}
+
+area(width: 24, height: 15)
+
+func perimeter(_ side1: Int, _ side2: Int, _ side3: Int, _ side4: Int) -> Int {
+    return side1 + side2 + side3 + side4
+}
+
+perimeter(11, 12, 13, 3)
 
 
 
+func myArrayFunc(inputArray:Array<Int>) -> Int{
+    let firstArray = inputArray[0] + inputArray[1] + inputArray[2]
+//    _ = inputArray[0] + inputArray[1] + inputArray[2]
+
+// do stuff with newArray
+        
+return firstArray
+}
+
+myArrayFunc(inputArray: [1, 2, 4])
+
+//func sumOf(_ firstValue:Array<Int>, _ secondValue:Array<Int>) -> Array<Int> {
+//  return firstValue + secondValue
+//}
+//
+//sumOf([4, 8])
+
+//func allPerimeter (_ firstValue:Int, _ secondValue:Int, _ thirdValue:Int) -> Array<Int>{
+//    let sum: Array<Int> = [firstValue + secondValue]
+//    let sum2: Array<Int> = [firstValue + secondValue + thirdValue]
+//    return sum2
+//}
+//var input = allPerimeter(1, 3)
 
 
-
-
+//perimeter(side1: 11, side2: 13, side3: 12)
 //: [Previous](@previous)    [Next](@next)

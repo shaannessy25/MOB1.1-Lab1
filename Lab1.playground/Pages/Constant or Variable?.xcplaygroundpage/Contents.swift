@@ -11,8 +11,14 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
-
-
+let name: String = "Ultra Lord"
+print("name is a string that should be used only once")
+var age: Int = 15
+print("age is an integer that can change")
+var goal: Int = 120
+print("goal a mutable integer that can be changed")
+var avg_heartrate: Double = 25.5
+print("Heartrate is mutable and needs the double to display the decimal value")
 
 
 
